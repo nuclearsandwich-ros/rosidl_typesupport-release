@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosidl-typesupport-cpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libpoco-dev, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-poco-vendor, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-introspection-cpp, ros-turbulent-rosidl-typesupport-opensplice-cpp, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosidl-typesupport-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpoco-dev, ros-turbulent-ament-cmake-core, ros-turbulent-poco-vendor, ros-turbulent-rmw-implementation, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-typesupport-c, ros-turbulent-rosidl-typesupport-interface, ros-turbulent-ros-workspace
+Description: Generate the type support for C++ messages.
