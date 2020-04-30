@@ -1,0 +1,13 @@
+Source: ros-verystable-rosidl-typesupport-c
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libpoco-dev, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-poco-vendor, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-introspection-c, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosidl-typesupport-c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpoco-dev, ros-verystable-ament-cmake-core, ros-verystable-poco-vendor, ros-verystable-rmw-implementation, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-typesupport-interface, ros-verystable-ros-workspace
+Suggests: ros-eloquent-rosidl-typesupport-connext-c, ros-eloquent-rosidl-typesupport-fastrtps-c, ros-eloquent-rosidl-typesupport-opensplice-c
+Description: Generate the type support for C messages.
