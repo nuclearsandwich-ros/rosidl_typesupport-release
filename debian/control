@@ -1,0 +1,13 @@
+Source: ros-testing-rosidl-typesupport-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rcpputils, ros-testing-rosidl-runtime-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-introspection-cpp, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosidl-typesupport-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake-core, ros-testing-rcpputils, ros-testing-rosidl-runtime-c, ros-testing-rosidl-runtime-cpp, ros-testing-rosidl-typesupport-c, ros-testing-rosidl-typesupport-interface, ros-testing-ros-workspace
+Suggests: ros-foxy-rosidl-typesupport-connext-cpp, ros-foxy-rosidl-typesupport-fastrtps-cpp
+Description: Generate the type support for C++ messages.
